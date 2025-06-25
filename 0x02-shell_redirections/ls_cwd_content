@@ -1,0 +1,17 @@
+total 60
+-rw-r--r-- 1 olivier2201 olivier2201   12 Jun 25 23:36 *\'"Best School"\'*$\?*****:)
+drwxr-xr-x 2 olivier2201 olivier2201 4096 Jun 25 23:48 .
+drwxr-xr-x 6 olivier2201 olivier2201 4096 Jun 25 22:06 ..
+-rwxr-xr-x 1 olivier2201 olivier2201   30 Jun 25 21:55 0-hello_world
+-rwxr-xr-x 1 olivier2201 olivier2201   28 Jun 25 22:03 1-confused_smiley
+-rwxr-xr-x 1 olivier2201 olivier2201   28 Jun 25 22:43 2-hellofile
+-rwxr-xr-x 1 olivier2201 olivier2201   45 Jun 25 22:48 3-twofiles
+-rwxr-xr-x 1 olivier2201 olivier2201   29 Jun 25 22:58 4-lastlines
+-rwxr-xr-x 1 olivier2201 olivier2201   29 Jun 25 23:00 5-firstlines
+-rwxr-xr-x 1 olivier2201 olivier2201   40 Jun 25 23:11 6-third_line
+-rwxr-xr-x 1 olivier2201 olivier2201   79 Jun 25 23:45 7-file
+-rwxr-xr-x 1 olivier2201 olivier2201   36 Jun 25 23:47 8-cwd_state
+-rw-r--r-- 1 olivier2201 olivier2201 2162 Jun 25 22:10 README.md
+-rw-r--r-- 1 olivier2201 olivier2201   12 Jun 25 23:45 \*\\'Best School'\\*$\?\*\*\*\*\*:)
+-rw-r--r-- 1 olivier2201 olivier2201   93 Jun 25 23:13 iacta
+-rw-r--r-- 1 olivier2201 olivier2201    0 Jun 25 23:48 ls_cwd_content
