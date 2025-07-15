@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
 for pid in /proc/[0-9]*; do
-  if grep -q bash "$pid/comm" 2>/dev/null; then
-    echo "$(basename "$pid")/comm $(cat "$pid/comm")"
+  if [ -r "$pid/comm" ]; then
+    cmd=$(<"$pid/comm")
+    if [[ "$cmd" == *bash* ]]; then
+      echo "$(basename "$pid") $cmd"
+    fi
   fi
 done
