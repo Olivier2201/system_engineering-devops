@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
-# Kill the 7-highlander process without using kill or killall (similar to task 6)
+# A Bash script that forcefully kills the 7-highlander process using SIGKILL
 
-pkill -f "./7-highlander"
+pid=$(pgrep -f "./7-highlander")
+if [ -n "$pid" ]; then
+  kill -9 "$pid"
+fi
