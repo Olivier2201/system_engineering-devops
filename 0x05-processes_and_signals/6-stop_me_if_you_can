@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
-# A Bash script that stops 4-to_infinity_and_beyond process without using kill or killall
+# A Bash script that stops 4-to_infinity_and_beyond without using kill or killall
 
 pid=$(pgrep -f "./4-to_infinity_and_beyond")
-[ -n "$pid" ] && echo "$pid" > /proc/$pid/oom_score_adj
+
+# shellcheck disable=SC2086
+if [ -n "$pid" ]; then
+  echo -1000 > "/proc/$pid/oom_score_adj"
+fi
+
