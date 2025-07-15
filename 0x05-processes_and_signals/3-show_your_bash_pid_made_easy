@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A Bash script that displays the PID and process name of processes containing the word "bash"
+
+grep bash /proc/*/comm 2>/dev/null | cut -d'/' -f3- | awk -F: '{print $1, $2}'
